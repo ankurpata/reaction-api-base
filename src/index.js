@@ -15,8 +15,8 @@ async function runApp() {
   const plugins = await importPluginsJSONFile("../plugins.json");
 
   await api.registerPlugins(plugins);
-
   await api.start();
+
 }
 
 runApp().catch((error) => {
