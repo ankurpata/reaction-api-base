@@ -11,6 +11,7 @@
   "systemInformation": "@reactioncommerce/api-plugin-system-information",
   "emailSMTP": "@reactioncommerce/api-plugin-email-smtp",
   "emailTemplates": "@reactioncommerce/api-plugin-email-templates",
+  "apiPluginExample": "api-plugin-example",
   "accounts": "@reactioncommerce/api-plugin-accounts",
   "authentication": "@reactioncommerce/api-plugin-authentication",
   "authorization": "@reactioncommerce/api-plugin-authorization-simple",
