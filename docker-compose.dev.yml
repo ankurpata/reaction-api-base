@@ -20,6 +20,7 @@ services:
     volumes:
       - .:/usr/local/src/app:cached
       - api_node_modules:/usr/local/src/app/node_modules # do not link node_modules in, and persist it between dc up runs
+      - ./scaling-fortnight2:/usr/local/src/app/node_modules/api-plugin-example
 
 volumes:
   mongo-db4:
