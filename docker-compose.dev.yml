@@ -7,6 +7,7 @@
 #
 # To go back to running the published image:
 #  rm docker-compose.override.yml
+#- /Users/ankurpata/media/code/scaling-fortnight:/usr/local/src/app/node_modules/api-plugin-example
 
 version: '3.4'
 
@@ -19,7 +20,6 @@ services:
     volumes:
       - .:/usr/local/src/app:cached
       - api_node_modules:/usr/local/src/app/node_modules # do not link node_modules in, and persist it between dc up runs
-      - /Users/ankurpata/media/code/reaction-development-platform/reaction/scaling-fortnight:/usr/local/src/app/node_modules/api-plugin-example
 
 volumes:
   mongo-db4:

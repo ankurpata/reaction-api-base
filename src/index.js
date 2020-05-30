@@ -1,6 +1,7 @@
 import {importPluginsJSONFile, ReactionAPICore} from "@reactioncommerce/api-core";
 import Logger from "@reactioncommerce/logger";
 import packageJson from "../package.json";
+// import {kafkaSubscribe} from './kafkaConsumer.js';
 
 const api = new ReactionAPICore({
   serveStaticPaths: ["public"],
@@ -13,9 +14,20 @@ const api = new ReactionAPICore({
  */
 async function runApp() {
   const plugins = await importPluginsJSONFile("../plugins.json");
-
+  // Comment added
+  // Comment added
+  // Comment added
+  // Comment added
   await api.registerPlugins(plugins);
+
   await api.start();
+  // await kafkaSubscribe(
+  //
+  //   'test',
+  //   (message) => {
+  //     send(message);
+  //   }
+  // );
 
 }
 
