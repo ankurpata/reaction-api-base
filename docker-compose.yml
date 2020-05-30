@@ -23,6 +23,8 @@ services:
       reaction:
     ports:
       - "3000:3000"
+    volumes:
+      - ./scaling-fortnight2:/usr/local/src/app/node_modules/api-plugin-example
 
   mongo:
     image: mongo:4.2.0
