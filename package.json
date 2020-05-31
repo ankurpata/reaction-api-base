@@ -64,7 +64,7 @@
     "@reactioncommerce/file-collections-sa-gridfs": "~0.1.0",
     "@reactioncommerce/logger": "~1.1.2",
     "@reactioncommerce/random": "~1.0.2",
-    "api-plugin-example": "0.0.1-development",
+    "api-plugin-example": "git+https://github.com/ankurpata/scaling-fortnight.git",
     "graphql": "~14.6.0",
     "semver": "~6.3.0"
   },
