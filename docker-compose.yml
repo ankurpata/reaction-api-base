@@ -13,7 +13,7 @@ networks:
 
 services:
   api:
-    image: reactionstyli:1.0
+    image: stylireaction:latest
     depends_on:
       - mongo
     env_file:
